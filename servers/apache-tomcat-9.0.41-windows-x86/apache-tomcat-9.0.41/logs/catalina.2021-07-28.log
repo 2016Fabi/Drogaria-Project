@@ -1,0 +1,103 @@
+28-Jul-2021 14:34:06.490 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jul-2021 14:34:06.492 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jul-2021 14:34:06.492 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jul-2021 14:34:06.492 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Jul-2021 14:34:06.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jul-2021 14:34:06.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2021 14:34:06.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+28-Jul-2021 14:34:06.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+28-Jul-2021 14:34:06.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2021 14:34:06.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41
+28-Jul-2021 14:34:06.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41
+28-Jul-2021 14:34:06.494 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\logging.properties
+28-Jul-2021 14:34:06.495 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2021 14:34:06.495 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-LAI5ES6
+28-Jul-2021 14:34:06.495 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jul-2021 14:34:06.495 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jul-2021 14:34:06.495 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jul-2021 14:34:06.495 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41
+28-Jul-2021 14:34:06.495 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41
+28-Jul-2021 14:34:06.495 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\temp
+28-Jul-2021 14:34:06.496 ADVERTÊNCIA [main] org.apache.catalina.core.AprLifecycleListener.init The Apache Tomcat Native library failed to load. The error reported was [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\bin\tcnative-1.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform]
+	java.lang.UnsatisfiedLinkError: C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\bin\tcnative-1.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+		at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+		at java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1941)
+		at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1824)
+		at java.lang.Runtime.load0(Runtime.java:809)
+		at java.lang.System.load(System.java:1086)
+		at org.apache.tomcat.jni.Library.<init>(Library.java:42)
+		at org.apache.tomcat.jni.Library.initialize(Library.java:206)
+		at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:193)
+		at org.apache.catalina.core.AprLifecycleListener.lifecycleEvent(AprLifecycleListener.java:124)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:135)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+28-Jul-2021 14:34:07.107 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2021 14:34:07.254 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1111] milliseconds
+28-Jul-2021 14:34:07.322 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2021 14:34:07.322 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jul-2021 14:34:07.330 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml]
+28-Jul-2021 14:34:07.356 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoPortaria] in deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml] has been ignored
+28-Jul-2021 14:34:07.904 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 14:34:07.947 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml] has finished in [617] ms
+28-Jul-2021 14:34:07.961 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\docs]
+28-Jul-2021 14:34:08.010 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\docs] has finished in [50] ms
+28-Jul-2021 14:34:08.012 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\examples]
+28-Jul-2021 14:34:08.380 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\examples] has finished in [368] ms
+28-Jul-2021 14:34:08.381 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\host-manager]
+28-Jul-2021 14:34:08.465 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\host-manager] has finished in [84] ms
+28-Jul-2021 14:34:08.466 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\manager]
+28-Jul-2021 14:34:08.576 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\manager] has finished in [110] ms
+28-Jul-2021 14:34:08.576 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\ROOT]
+28-Jul-2021 14:34:08.625 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\webapps\ROOT] has finished in [49] ms
+28-Jul-2021 14:34:08.635 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jul-2021 14:34:08.675 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1421] milliseconds
+28-Jul-2021 14:56:25.913 INFORMAÇÕES [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoPortaria]
+28-Jul-2021 14:56:40.179 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml]
+28-Jul-2021 14:56:40.181 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoPortaria] in deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml] has been ignored
+28-Jul-2021 14:56:40.339 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 14:56:40.339 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml] has finished in [160] ms
+28-Jul-2021 14:56:40.349 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoPortaria]] after start() had already been called. The second call will be ignored.
+28-Jul-2021 18:06:20.890 INFORMAÇÕES [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoPortaria]
+28-Jul-2021 18:06:29.967 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml]
+28-Jul-2021 18:06:29.969 ADVERTÊNCIA [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoPortaria] in deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml] has been ignored
+28-Jul-2021 18:06:30.078 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 18:06:30.094 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\USUARIO\Downloads\apache-tomcat-9.0.41-windows-x86\apache-tomcat-9.0.41\conf\Catalina\localhost\ProjetoPortaria.xml] has finished in [127] ms
+28-Jul-2021 18:06:30.098 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoPortaria]] after start() had already been called. The second call will be ignored.
+28-Jul-2021 19:55:12.270 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] has started
+28-Jul-2021 19:55:12.371 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 19:55:12.377 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] is completed
+28-Jul-2021 19:57:46.517 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] has started
+28-Jul-2021 19:57:46.615 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 19:57:46.618 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] is completed
+28-Jul-2021 20:06:52.286 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] has started
+28-Jul-2021 20:06:52.414 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 20:06:52.418 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] is completed
+28-Jul-2021 20:06:53.585 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] has started
+28-Jul-2021 20:06:53.760 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 20:06:53.765 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] is completed
+28-Jul-2021 20:10:29.848 INFORMAÇÕES [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] has started
+28-Jul-2021 20:10:29.936 INFORMAÇÕES [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 20:10:29.941 INFORMAÇÕES [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] is completed
+28-Jul-2021 20:10:29.962 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] has started
+28-Jul-2021 20:10:30.064 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 20:10:30.068 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] is completed
+28-Jul-2021 20:12:28.159 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] has started
+28-Jul-2021 20:12:28.259 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 20:12:28.263 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] is completed
+28-Jul-2021 20:14:44.250 INFORMAÇÕES [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] has started
+28-Jul-2021 20:14:44.358 INFORMAÇÕES [http-nio-8080-exec-59] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2021 20:14:44.366 INFORMAÇÕES [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoPortaria] is completed
+28-Jul-2021 20:15:08.758 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jul-2021 20:15:08.758 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2021 20:15:08.873 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2021 20:15:08.891 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2021 20:15:08.921 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

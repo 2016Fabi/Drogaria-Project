@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-SymbolicName: org.jboss.tools.quarkus.lsp4e;singleton:=true
+Bundle-Version: 1.10.0.v20230622-1450
+Require-Bundle: org.eclipse.lsp4e,org.eclipse.core.runtime,org.eclipse.j
+ face.text,org.eclipse.ui.editors,org.eclipse.lsp4j.jsonrpc,org.eclipse.
+ lsp4j,com.google.gson,org.eclipse.jdt.core.manipulation,org.eclipse.jdt
+ .ui,org.eclipse.lsp4mp.jdt.core,org.jsoup;bundle-version="1.8.3";visibi
+ lity:=reexport,org.eclipse.ui,org.jboss.tools.foundation.ui,org.apache.
+ commons.lang3,org.eclipse.ui.ide,org.jboss.tools.quarkus.core,org.apach
+ e.commons.io,com.redhat.qute.jdt,org.eclipse.core.expressions,org.jboss
+ .tools.maven.core,org.eclipse.m2e.core,com.google.guava,org.eclipse.jdt
+ .annotation;bundle-version="2.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.jboss.tools.quarkus.lsp4e
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,server/org.eclipse.lsp4mp.ls-uber.jar,server/com.red
+ hat.quarkus.ls.jar,lib/remark.jar,server/com.redhat.qute.ls-uber.jar
+Bundle-Activator: org.jboss.tools.quarkus.lsp4e.QuarkusLSPPlugin
+Export-Package: org.jboss.tools.quarkus.lsp4e
+Eclipse-BundleShape: dir
+Eclipse-SourceReferences: scm:git:https://github.com/jbosstools/jbosstoo
+ ls-quarkus.git;path="plugins/org.jboss.tools.quarkus.lsp4e";commitId=90
+ 64b92ab5355d9078a5d54c6d4e313824db29cc
+Bundle-License: Eclipse Public License;link="http://www.eclipse.org/lega
+ l/epl-v10.html"
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.ws.jaxws.feature"
+      label="%featureName"
+      version="2.2.600.v20230313-0932"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.ws.ui"
+         download-size="80"
+         install-size="205"
+         version="2.2.600.v20230313-0932"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.ws.jaxws.core"
+         download-size="39"
+         install-size="141"
+         version="2.2.600.v20230313-0932"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.ws.jaxws.ui"
+         download-size="292"
+         install-size="680"
+         version="2.2.600.v20230313-0932"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.ws.wise.ui"
+         download-size="13086"
+         install-size="14565"
+         version="2.2.600.v20230313-0932"
+         unpack="false"/>
+
+</feature>
