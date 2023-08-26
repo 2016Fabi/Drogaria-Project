@@ -1,0 +1,5 @@
+package br.com.drogariaproject.domain;
+
+public class Fornecedor {
+
+}

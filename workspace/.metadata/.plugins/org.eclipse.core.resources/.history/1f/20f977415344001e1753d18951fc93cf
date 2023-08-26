@@ -1,0 +1,8 @@
+package br.com.drogariaproject.domain;
+
+public class Fornecedor {
+	private Long codigo;
+	private String nome;
+	
+	
+}
